@@ -40,7 +40,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 gemini_model = genai.GenerativeModel('gemini-pro')
 mistral_client = Mistral(api_key=MISTRAL_API_KEY)
 
-print("✅ Atlas Vision API démarrée")
+print(" Atlas Vision API démarrée")
 
 # ==============================
 # LLM avec FALLBACK
