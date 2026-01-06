@@ -44,3 +44,5 @@ pip install -r requirements.txt
 
 # Lancer le serveur
 uvicorn main:app --reload
+---
+*Développé avec ❤️ par Imane Abdeljalili.*
