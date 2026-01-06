@@ -110,7 +110,7 @@ function App() {
     formData.append("file", await compressImage(image));
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/analyze-landmark", {
+      const response = await fetch("https://imaneeeabdel-atlas-vision-api.hf.space/analyze-landmark", {
         method: "POST",
         body: formData,
       });
@@ -177,7 +177,7 @@ function App() {
     setIsChatLoading(true);
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/chat", {
+      const res = await fetch("https://imaneeeabdel-atlas-vision-api.hf.space/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
