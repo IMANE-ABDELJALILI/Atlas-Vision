@@ -40,7 +40,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 gemini_model = genai.GenerativeModel('gemini-pro')
 mistral_client = Mistral(api_key=MISTRAL_API_KEY)
 
-print("✅ Atlas Vision API démarrée")
+print(" Atlas Vision API démarrée")
 
 # ==============================
 # LLM avec FALLBACK
@@ -56,7 +56,7 @@ def call_llm_with_fallback(prompt: str, system_prompt: str = "") -> str:
         response = gemini_model.generate_content(full_prompt)
         return response.text
     except Exception as e:
-        print(f"⚠️ Erreur Gemini, fallback vers Mistral: {e}")
+        print(f" Erreur Gemini, fallback vers Mistral: {e}")
         
         # Fallback vers Mistral
         try:
@@ -71,7 +71,7 @@ def call_llm_with_fallback(prompt: str, system_prompt: str = "") -> str:
             )
             return response.choices[0].message.content
         except Exception as e2:
-            print(f"❌ Erreur Mistral également: {e2}")
+            print(f" Erreur Mistral également: {e2}")
             return "Description indisponible."
 
 # ==============================
