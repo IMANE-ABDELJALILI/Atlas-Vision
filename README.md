@@ -26,7 +26,7 @@ Atlas Vision est une application Fullstack intelligente qui permet d'analyser de
 ### Backend
 * **Framework :** FastAPI (Python)
 * **Hébergement :** Hugging Face Spaces (Docker)
-* **APIs Externes :** Google Gemini API, Mistral API, TMDB API
+* **APIs Externes :** Google Gemini API, Mistral API
 
 ## ⚙️ Installation Locale
 
