@@ -68,7 +68,7 @@ The system operates in two distinct phases:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/IMANE-ABELJALILI/atlas-vision.git](https://github.com/IMANE-ABDELJALILI/atlas-vision.git)
+    git clone [https://github.com/IMANE-ABELJALILI/Atlas-Vision.git](https://github.com/IMANE-ABDELJALILI/Atlas-Vision.git)
     cd atlas-vision
     ```
 
