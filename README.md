@@ -15,6 +15,8 @@ Developed as an engineering project , Atlas Vision solves a common problem: visi
 
 Unlike generic object detection apps, Atlas Vision uses a **Hybrid AI Architecture** that combines specialized computer vision with advanced Large Language Models (LLMs) to provide a rich, interactive educational experience.
 
+* **LIVE DEMO :** https://atlas-vision.netlify.app/
+
 ### Key Features
 * **Instant Recognition:** Identifies monuments from user-uploaded photos.
 * **Interactive Guide:** Chat with the AI to ask specific questions about the place (history, architecture, anecdotes).
