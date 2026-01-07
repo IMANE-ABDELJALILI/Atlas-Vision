@@ -96,7 +96,7 @@ The recognition model has been specifically trained on **Moroccan heritage sites
 
 ## 👤 Author
 
-**Your Name**
+**IMANE ABDELJALILI**
 * Student at National School of Applied Sciences of Fez (ENSA Fès)
 * LinkedIn: www.linkedin.com/in/imane-abdeljalili-b15976261
 
